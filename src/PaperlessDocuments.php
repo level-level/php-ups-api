@@ -139,7 +139,7 @@ class PaperlessDocuments extends Ups
      *
      * @param SimpleXMLElement $response
      *
-     * @return array
+     * @return stdClass
      */
     private function formatResponse(SimpleXMLElement $response)
     {
