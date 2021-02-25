@@ -176,6 +176,6 @@ class UserCreatedForm implements NodeInterface
      * @return bool
      */
 	public static function isAllowedFileFormat($fileFormat) {
-		return in_array( $fileFormat, self::ALLOWED_FILE_FORMATS, true );
+		return in_array( strtolower( $fileFormat ), self::ALLOWED_FILE_FORMATS, true );
 	}
 }
