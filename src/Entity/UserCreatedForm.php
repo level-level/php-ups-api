@@ -64,7 +64,7 @@ class UserCreatedForm implements NodeInterface
                 $this->setFileName($attributes->FileName);
             }
 			if (isset($attributes->FileFormat)) {
-                $this->setFileName($attributes->FileFormat);
+                $this->setFileFormat($attributes->FileFormat);
             }
 			if (isset($attributes->DocumentType)) {
                 $this->setDocumentType($attributes->DocumentType);
